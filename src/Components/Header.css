@@ -1,0 +1,64 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  border-bottom: 1px solid #f0f0f9;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  padding: .5rem;
+}
+
+.header__logoContainer img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header__navContainer {
+  flex: 2;
+  justify-content: flex-start;
+}
+
+.header__navContainer ul {
+  margin: 0;
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header__navContainer ul li {
+  margin-right: .75rem;
+  vertical-align: middle;
+}
+
+.header__navContainer ul li a {
+  text-decoration: none;
+  color: #5a5b75;
+  display: inline-block;
+  height: 100%;
+}
+
+.header__navSelected {
+  color: #0d2942 !important;
+  font-weight: 600;
+}
+
+.header__buttonContainer {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header__buttonContainerCreateNFT {
+  background: linear-gradient(90deg, hsla(208, 67%, 15%, 1) 0%, hsla(340, 87%, 59%, 1) 100%);
+  color: white;
+  border: 1px solid black;
+}
+
+.header__buttonContainer > button {
+  margin-right: 0.5rem;
+}

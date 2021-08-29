@@ -1,0 +1,15 @@
+.cookiePopUp{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #0d2942;
+    background-color: white;
+    padding: .25rem .5rem;
+    text-align: center;
+    border-top: 1px solid #f0f0f9;
+}
+
+.cookiePopUp > p {
+    text-align: left;
+}

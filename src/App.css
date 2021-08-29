@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+.displayFlex{
+  display: flex;
+}
+
+.bootstrap-buttonStyle{
+  padding: .5625rem 1.25rem;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+    border-radius: .5rem;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Inter", sans-serif;
+}
+
+.fontSizeSmall{
+  font-size: 1rem !important;
+}
+
+.colorMeOrange{
+  color: orange;
+}

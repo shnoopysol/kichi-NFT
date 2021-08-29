@@ -1,0 +1,156 @@
+.gallery {
+  font-family: "Inter", sans-serif;
+}
+
+.gallery__spotlight {
+  display: flex;
+  height: 85vh;
+  justify-content: space-between;
+}
+
+.gallery__spotlightDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  order: 1;
+  border-right: 1px solid #f0f0f9;
+  padding: 3rem;
+}
+
+.gallery__spotlightDetailsTag {
+  font-weight: 500;
+  color: #b25fa0;
+  margin-left: 0.5rem;
+}
+
+.gallery__spotlightDetailsProfile {
+  display: flex;
+  align-items: center;
+}
+
+.gallery__spotlightDetailsDescription > h1 {
+  font-weight: 400;
+}
+
+.gallery__spotlightDetailsDescription > p {
+  color: rgb(139, 139, 155);
+  font-weight: 400;
+}
+
+.gallery__spotlightDetailsBidInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.gallery__spotlightDetailsBidInfoLeft {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  border-right: 1px solid #f0f0f9;
+  margin-right: 1rem;
+}
+
+.gallery__spotlightDetailsBidInfoLeftPhoto {
+  width: 75px;
+  height: 75px;
+  background: linear-gradient(90deg, hsla(208, 67%, 15%, 1) 0%, hsla(340, 87%, 59%, 1) 100%);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+.gallery__spotlightDetailsBidInfoRight {
+  flex: 2;
+}
+
+.gallery__spotlightDetailsBidInfoRight > h3 {
+  font-size: 0.8125rem;
+  opacity: 0.8;
+}
+
+.gallery__spotlightDetailsBidInfoRight > p:nth-child(2) {
+  font-size: 0.8125rem;
+  opacity: 0.8;
+  color: #8b8b9b;
+  margin-bottom: 0.5rem;
+}
+
+.gallery__spotlightDetailsBidInfoRight > p:nth-child(4) {
+  opacity: 0.8;
+  color: #8b8b9b;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.gallery__spotlightDetailsBidInfoRight > p:nth-child(3) {
+  opacity: 0.8;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.gallery__spotlightDetailsBottom p,
+.gallery__spotlightDetailsBottom h3 {
+  margin: 0;
+}
+
+.gallery__spotlightDetailsBidCountdown {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  background-color: #c1564b;
+  border: 1px solid white;
+}
+
+.gallery__spotlightDetailsBidCountdownRightHours > p:nth-child(1),
+.gallery__spotlightDetailsBidCountdownRightSeconds > p:nth-child(1),
+.gallery__spotlightDetailsBidCountdownRightMinutes > p:nth-child(1) {
+  font-weight: 700;
+}
+
+.gallery__spotlightDetailsBidCountdownRightHours > p:nth-child(2),
+.gallery__spotlightDetailsBidCountdownRightSeconds > p:nth-child(2),
+.gallery__spotlightDetailsBidCountdownRightMinutes > p:nth-child(2) {
+  opacity: 0.8;
+}
+
+.gallery__spotlightDetailsBidCountdownLeft {
+  margin-right: 1rem;
+}
+
+.gallery__spotlightDetailsBidCountdownRight {
+  display: flex;
+}
+
+.gallery__spotlightDetailsBidCountdownRight > div {
+  margin-right: 0.5rem;
+}
+
+.gallery__spotlightNFT {
+  flex: 2;
+  order: 2;
+  padding: 3rem;
+}
+
+.gallery__spotlightNFT > video {
+  height: 100% !important;
+}
+
+@media only screen and (max-width: 999px) {
+  .gallery__spotlight {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .gallery__spotlightDetails {
+    order: 2;
+  }
+
+  .gallery__spotlightNFT {
+    order: 1;
+  }
+}

@@ -1,0 +1,77 @@
+.NFTsCarousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.NFTsCarousel__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding: 0.75rem;
+}
+
+.NFTsCarousel__left > h2 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 500;
+}
+
+.NFTsCarousel__left > h3 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1rem;
+}
+/* orange: #c1564b */
+.NFTsCarousel__right > button {
+  color: #1b1b38;
+  box-shadow: 2px 2px 0 transparent;
+  transition: 0.25s ease-in-out;
+  background-color: #f0f0f9;
+}
+
+.NFTsCarousel__right > button:active,
+.NFTsCarousel__right > button:hover,
+.NFTsCarousel__right > button:focus {
+  box-shadow: 2px 2px 0 black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.NFTsCarousel__bottomCard {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px gray;
+  transition: .5s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.NFTsCarousel__bottomCard:active,
+.NFTsCarousel__bottomCard:hover {
+  box-shadow: 2px 2px 0 black;
+  background-color: white;
+}
+
+.NFTsCarousel__bottomCardImageContainer {
+  width: 283px;
+  height: 283px;
+  overflow: hidden;
+}
+
+.NFTsCarousel__bottomCardImageContainer img {
+  object-fit: cover;
+  min-width: 100%;
+}
+
+.NFTsCarousel__bottomCardDescription{
+    padding: 1rem .5rem;
+}
+
+.NFTsCarousel__bottomCardDescription > p{
+    margin: 0;
+}
+
+.NFTsCarousel__bottomCardDescription > p:nth-child(1){
+    font-weight: 700;
+}
+
+.NFTsCarousel__bottomCardDescription > p:nth-child(2){
+    font-weight: 300;
+}
